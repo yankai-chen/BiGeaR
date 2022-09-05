@@ -22,8 +22,7 @@ All datasets are available via [link](https://drive.google.com/file/d/11RrEMaQ5z
 	
 1. Firstly, download the embedding checkpoints via [link](https://drive.google.com/file/d/1nGMvAegcfcvErV90mgAUOteWhhzptGPS/view?usp=sharing). Unzip them to the path "BiGeaR/src/checkpoints/".
 	
-2. Then, run the codes for each dataset. For example, for movie dataset,
-
+2. Then, run the codes for each dataset. For example, for movie dataset:
 ```
 
 python main_quant.py --epoch 1000 --dataset movie --model bgr --dim 256 --save_embed 1 --compute_rank 1 --lr 1e-3 --weight 1e-4
