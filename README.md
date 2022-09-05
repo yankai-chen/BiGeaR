@@ -20,7 +20,7 @@ All datasets are available via [link](https://drive.google.com/file/d/11RrEMaQ5z
 
 <li> You can directly use our teacher embeddings for binarization:
 	
-1. Firstly, download the embedding checkpoints via [link](https://drive.google.com/file/d/11RrEMaQ5zlChzUj7VteI4Kolclz7Hr-r/view?usp=sharing). Unzip them to the path "BiGeaR/src/checkpoints/".
+1. Firstly, download the embedding checkpoints via [link](https://drive.google.com/file/d/1nGMvAegcfcvErV90mgAUOteWhhzptGPS/view?usp=sharing). Unzip them to the path "BiGeaR/src/checkpoints/".
 	
 2. Then, run the codes for each dataset. For example, for movie dataset,
 
@@ -33,17 +33,15 @@ Please refer to <b>run_bin.py</b> for other dataset settings. </li>
 
 <li> Alternatively, 
 
-	1. You can also train the model from scratch to train the teacher embedding checkpoints for dataset xxx:  
+1. You can also train the model from scratch to train the teacher embedding checkpoints for dataset xxx:  
 
-	```
+```
 
-	python main_pretrain.py --epoch 1000 --dataset xxx --model bgr --dim 256 --save_embed 1 --compute_rank 1
+python main_pretrain.py --epoch 1000 --dataset xxx --model bgr --dim 256 --save_embed 1 --compute_rank 1
 
-	```
+```
 
-	2. Then conduct binarization with <b>main_quant.py</b> similarly for dataset xxx.
-
-</li>
+2. Then conduct binarization with <b>main_quant.py</b> similarly for dataset xxx.</li>
 
 
 ## Citation
