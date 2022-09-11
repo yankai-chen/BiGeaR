@@ -1,6 +1,6 @@
 # BiGeaR
  
-This is the PyTorch implementation for our paper:
+This is the PyTorch implementation for the paper:
 
 "Learning Binarized Graph Representations with Multi-faceted Quantization Reinforcement for Top-K Recommendation." *Chen, Yankai, Huifeng Guo, Yingxue Zhang, Chen Ma, Ruiming Tang, Jingjie Li, and Irwin King.* SIGKDD'22.
 It is available in [ACM digital library](https://dl.acm.org/doi/abs/10.1145/3534678.3539452).
